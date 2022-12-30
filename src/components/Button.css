@@ -1,0 +1,83 @@
+
+  .btn {
+    /* width: 30px; */
+    /* height: 30px; */
+    /* box-sizing: border-box; */
+    /* padding-top: 1000px; */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    /* border: 2px solid #e74c3c; */
+    border-radius: 0.6em;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.4em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    size-adjust: 100%;
+    margin-block-start: -15px;
+    /* margin-left: 0px; */
+    /* margin-right: 2px; */
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+    /* border: 2px solid #e74c3c; */
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    border: 2px solid rgb(62, 85, 91);
+    background-color: white;
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    margin-right: 25px;
+    /* justify-content: center; */
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px rgb(62, 85, 91) inset;
+  }
+  
+  .second {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    border: 2px solid #0072b1;
+    background-color: white;
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+  }
+  .second:hover {
+    box-shadow: 0 0 40px 40px #0072b1 inset;
+  }
+  .second:hover .linkedIn-icon {
+    color: white;
+  }
+
+  .btn-icon {
+    display: flex;
+  }
+
+  .mail-icon {
+    position: relative;
+    top: -5px;
+    left: -2px;
+  }
+
+  .linkedIn-icon {
+    color: #0072b1;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: -5px;
+    left: -2px;
+  }
+
