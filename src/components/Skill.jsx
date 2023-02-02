@@ -16,7 +16,8 @@ function Skill(){
                                     SolidWord<hr></hr>
                                     Chinese<hr></hr>
                                     </p>
-                <p className="p2">Phi Theta Kappa<hr className="hr1"></hr>
+                <p className="p2">Phi Theta Kappa<hr></hr>
+                                App Development Club<hr></hr>   
                                 </p>
             </nav>
         </div>
